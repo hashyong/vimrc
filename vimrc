@@ -1,4 +1,4 @@
-" vim yongbo 配置
+" vim 配置
 "
 " 设置vim 主题
 
