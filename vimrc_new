@@ -1,0 +1,20 @@
+syntax on " 支持语法高亮显示
+filetype plugin indent on " 启用根据文件类型自动缩进
+set autoindent " 开始新行时处理缩进
+set expandtab  " 将制表符展开为空格
+set tabstop=2  " 两空格缩进
+set number     " 显示行号
+set shiftwidth=2
+set backspace=2
+colorscheme murphy " 设置主题
+
+inoremap jj <Esc>
+inoremap jk <Esc>
+inoremap kk <Esc>
+
+" 插入模式下移动光标
+inoremap <C-h> <Left>
+inoremap <C-j> <Down>
+inoremap <C-k> <Up>
+inoremap <C-l> <Right>
+inoremap <C-d> <Delete>
